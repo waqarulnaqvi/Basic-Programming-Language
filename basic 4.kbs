@@ -1,0 +1,4 @@
+print "hello"
+i=33
+if i=32 then print "yes" else print "no"
+end

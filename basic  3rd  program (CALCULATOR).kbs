@@ -1,0 +1,25 @@
+cls
+print "********WELCOME TO WAQARUL'S CALCULATOR*********"
+input "Enter first number :", first$
+input "Enter second number :", second$
+input "Which operation do you want to person ENTER ADD FOR ADDITION ,SUB FOR SUBSTRACTION , DIV FOR DIVISION AND, ENTER ANY KEY TO EXIT FROM THE LOOP " ,OP$
+while True
+  if OP$ == "ADD"
+    THEN PRINT "ADDITION OF A AND B IS :",first$  + second$
+  ELSEIF OP$ == "SUB"
+    THEN PRINT "SUBSTRACTION OF A AND B IS :",first$ - second$ 
+  ELSEIF OP$ == "MUL"
+    THEN PRINT "MULTIPLICATION OF A AND B IS :",first$ * second$ 
+  ELSEIF OP$ == "DIV"
+    THEN PRINT "DIVISION OF A AND B IS :",first$ / second$ 
+  ELSE
+    THEN PRINT "BREAKING FROM THE LOOP"
+    break
+end
+
+"""
+for loop syntax
+for i = 10 to 1
+next
+"""
+

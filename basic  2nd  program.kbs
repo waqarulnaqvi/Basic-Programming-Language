@@ -1,0 +1,14 @@
+#dim name as string
+#dim stands for dimensions in basic
+#input "what is your name"; name
+#print name
+
+#print 4*3
+
+cls
+print "What is your name?"
+input " Enter your name :" ,a$
+print ""
+print a$
+End#program will not execute after the end condition.
+print "What is your name?"
